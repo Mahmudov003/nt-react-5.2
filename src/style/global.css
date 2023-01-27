@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #373f68;
+  padding: 26px;
+  border-radius: 10px;
+}
+
+.sitebar-head {
+  height: 137px;
+  color: #fff;
+  margin-top: 0 !important;
+  background: linear-gradient(45deg, red, blue) !important;
+  padding: 62px 26px;
+}
+.nav_bar {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.feed_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5px;
+    height: 60px;
+    border-radius: 15px;
+    background: #f2f2f2;
+}
+
+.nav_button {
+  padding: 10px;
+  font-size: 17px;
+  background: #AD1FEA;
+  border-radius: 10px;
+  border: none;
+}
+
+.site_left {
+  width: 255px;
+  background: #fff;
+  border-radius: 15px;
+  margin-top: 24px;
+}
+
+.sitebar-buttons {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.siteBnt {
+  padding: 7px 12px;
+  border-radius: 10px;
+  border: none;
+  color: blue;
+}
+
+.siteBtn:hover {
+  background: blue;
+  color: white;
+}
+
+.sitebar-roadmap {
+  padding: 20px;
+}
+.road_ul {
+  font-size: 20px;
+}
+
+.road_right {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.li:nth-child(1) {
+  color: #ae972c;
+}
+
+.li:nth-child(2) {
+  color: #263cab;
+}
+
+.li:nth-child(3) {
+  color: #68373d;
+}
+.road_ul-right {
+  list-style: none;
+  font-size: 20px;
+}
+
+.li span {
+  color: rgba(0, 0, 0, 0.626);
+}
+
+li {
+  margin-top: 5px;
+}
+.road_left {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.button_tags {
+  background: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  margin-top: 15px;
+}
+
+.desc {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  margin-top: 5px;
+  color: #647196;
+}
+
+.title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3a4374;
+}
